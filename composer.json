@@ -1,0 +1,22 @@
+{
+    "name": "forjix/database",
+    "description": "Forjix Framework database layer",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "forjix/support": "^1.0",
+        "forjix/core": "^1.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Forjix\\Database\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}
