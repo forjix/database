@@ -2,7 +2,7 @@
     "name": "forjix/database",
     "description": "Forjix Framework database layer",
     "type": "library",
-    "license": "MIT",
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": "^8.2",
         "forjix/support": "^1.0",
