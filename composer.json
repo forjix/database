@@ -2,6 +2,7 @@
     "name": "forjix/database",
     "description": "Forjix Framework database layer",
     "type": "library",
+    "version": "0.1.0",
     "license": "GPL-3.0-or-later",
     "require": {
         "php": "^8.2",
@@ -9,9 +10,17 @@
         "forjix/core": "^1.0",
         "ext-pdo": "*"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
     "autoload": {
         "psr-4": {
             "Forjix\\Database\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Forjix\\Database\\Tests\\": "tests/"
         }
     },
     "extra": {
